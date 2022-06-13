@@ -1,0 +1,24 @@
+{
+  "name": "s03-e09-oblog-antoinelefrancq",
+  "version": "1.0.0",
+  "description": "![Aperçu](integration/apercu.png \"Aperçu\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Flamel/S03-E09-Oblog-antoinelefrancq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Flamel/S03-E09-Oblog-antoinelefrancq/issues"
+  },
+  "homepage": "https://github.com/O-clock-Flamel/S03-E09-Oblog-antoinelefrancq#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
