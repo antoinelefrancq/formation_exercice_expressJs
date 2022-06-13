@@ -6,8 +6,8 @@ app.set("view engine", "ejs");
 app.set("views", "integration");
 app.use(express.static('static'));
 
-const articlesFromJson = require("./data/articles.json")
-
+const articles = require("./data/articles.json")
+app.locals.articles = articles;
 
 
 app.get('/', (req, res)=>{
